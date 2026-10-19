@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Type checkers
+.mypy_cache/
+.dmypy.json
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+*.env
+
+# Raw market data dumps (API exploration artifacts)
+data/raw_*.csv
+data/raw_*.json
+data/raw_*.parquet
+data/*.pkl
+
+# MLflow artifacts
+mlruns/
+
+# Large/temp files
+*.log
+*.tmp
+
+# Results CSVs / Parquet that are regenerated — keep only RESULTS.md and plots
+# (individual run CSVs are reproducible from the pipeline)
+# Uncomment the next line to exclude generated CSVs from version control:
+# results/*.csv
